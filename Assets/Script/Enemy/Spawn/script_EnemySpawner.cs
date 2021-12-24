@@ -7,14 +7,20 @@ public class script_EnemySpawner : MonoBehaviour
     [Header("EnemyPrefab")]
     [SerializeField] GameObject enemyPrefab;
 
+    [Header("SpawnProperty")]
     public float respawnTime;
+    public int maxEnemySpawn;
     
     Vector3 spawnPoint;
     bool isSpawn;
 
+    //外部
+    script_EnemyDirector enemyState;
+
     // Start is called before the first frame update
     void Start()
     {
+        enemyState = GetComponent<script_EnemyDirector>();
         spawnPoint = transform.position;
     }
 

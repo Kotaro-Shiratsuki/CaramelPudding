@@ -51,7 +51,7 @@ public class script_EnemyMove : MonoBehaviour
         {
             enemyDirector.nextState = script_EnemyDirector.EnemyAiState.Idol;
             isPointSet = false;
-            Debug.Log(isPointSet);
+            //Debug.Log(isPointSet);
 
         }
     }

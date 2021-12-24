@@ -65,7 +65,6 @@ public class script_EnemyAttack : MonoBehaviour
 
         //回転をスムーズにする
         var smoothAngle = Mathf.SmoothDamp(transform.eulerAngles.y, targetAngle, ref yVelocity, smooth, maxSpeed);
-
         transform.rotation = Quaternion.Euler(0, smoothAngle, 0);
 
     }
