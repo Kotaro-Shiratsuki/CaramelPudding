@@ -7,7 +7,7 @@
 私が一人で制作しています
 
 ## 権利関係
-モデルには**Unity Technologies Japan(UTJ)**さまのSD_UnityChanを使用しています。
+モデルには**UnityTechnologiesJapan(UTJ)**さまのSD_UnityChanを使用しています。
 
 ## ゲーム概要（企画）
 このゲームはカラメルを剥がれ暴走したプリンの精に、カラメルを塗って沈静化していくアクションゲームです。
