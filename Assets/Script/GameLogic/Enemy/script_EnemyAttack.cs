@@ -37,6 +37,11 @@ public class script_EnemyAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //enemyが倒されていた場合攻撃しない
+        if(director.nextState == script_EnemyDirector.EnemyAiState.Dead)
+        {
+            return;
+        }
         //AIがAttackモードなら
         if (director.aiState == script_EnemyDirector.EnemyAiState.Attack)
         {
